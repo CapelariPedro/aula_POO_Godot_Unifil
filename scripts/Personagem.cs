@@ -25,6 +25,10 @@ public class Personagem
 		if (Vida < 0)
 			Vida = 0;
 	}
+	
+	public abstract string Atacar()
+	{
+	}
 
 	public bool EstaVivo()
 	{
